@@ -1,0 +1,8 @@
+{% extends "D:\EPAM\pycharm\PyCharm Edu 2022.1\help\pythonProject1\samplesite\bboard\templates\ layout\basic.html" %}
+{% block title %}{{ bb.title }}{% endblock %}
+{% block content %}
+<p>Рубрика: {{ bb.rubric.name }}</p>
+<h2>{{ bb.title }}</h2>
+<p>{{ bb.content }}</p>
+<p>Ціна: {{ bb.price }}</p>
+{% endblock %}
